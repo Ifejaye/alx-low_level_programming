@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - compares the last digit with 5*/
+/**
+ *
+ *main - compares the last digit with 5
+ *
+ */
 int main(void)
 {
 	int n;

@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* main - rints all the numbers of base 16 in lowercase*/
+/**
+ *
+ *main - rints all the numbers of base 16 in lowercase
+ */
 int main(void)
 {
 	int num;
@@ -10,7 +13,7 @@ int main(void)
 	{
 		putchar(num + '0');
 	}
-	for (letter = 'a'; letter <='f'; letter++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
 		putchar(letter);
 	}

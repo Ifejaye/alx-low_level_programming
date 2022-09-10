@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* main - compares the value of n with zero */
+/**
+ *
+ *main - compares the value of n with zero 
+ *
+ */
 int main(void)
 {
 	int n;

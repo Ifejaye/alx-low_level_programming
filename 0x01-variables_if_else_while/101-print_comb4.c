@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ *main - prints all possible different combinations of three digits
+ *
+ */
+ 
 int main(void)
 {
 	int i;
@@ -12,16 +16,17 @@ int main(void)
 		{
 			for (k = 0; k < 10; k++)
 			{
-			if (i < j && j < k)
-			{
-			putchar(i + '0');
-			putchar(j + '0');
-			putchar(k + '0');
-			if (i < 7 || j < 8 || k < 9)
-			{
-			putchar(',');
-			putchar(' ');
-			}
+				if (i < j && j < k)
+				{
+				putchar(i + '0');
+				putchar(j + '0');
+				putchar(k + '0');
+					if (i < 7 || j < 8 || k < 9)
+					{
+					putchar(',');
+					putchar(' ');
+					}
+				}
 			}
 		}
 	}

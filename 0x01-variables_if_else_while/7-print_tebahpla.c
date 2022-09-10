@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*main - rints the lowercase alphabet in reverse*/
+/**
+ *
+ *main - prints the lowercase alphabet in reverse
+ *
+ */
 int main(void)
 {
 	char alphabet;

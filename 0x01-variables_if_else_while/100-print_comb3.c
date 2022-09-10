@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+ *
+ * main - prints combinations of numbers between 0 and 9
+ *
+ */
 int main(void)
 {
 	int i;
