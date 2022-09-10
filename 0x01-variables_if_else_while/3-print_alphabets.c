@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*prints the alphabet in lowercase*/
+/* main - prints the alphabet in lowercase*/
 int main(void)
 {
 	char alph;
