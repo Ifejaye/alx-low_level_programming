@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-
-int main()
+/*prints the alphabet in lowercase except q and e*/
+int main(void)
 {
 	char alphabet;
+
 	alphabet = 'a';
 	while (alphabet <= 'z')
 	{
@@ -11,8 +12,7 @@ int main()
 		{
 		putchar(alphabet);
 		}
-		alphabet++;
-		
+		alphabet++;	
 	}
 	putchar('\n');
 	return (0);
