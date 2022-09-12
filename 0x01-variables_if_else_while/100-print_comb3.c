@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- *
+/**
  * main - prints combinations of numbers between 0 and 9
  *
+ * Return: returns the value zero
  */
 int main(void)
 {

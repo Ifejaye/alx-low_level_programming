@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
+ * main - compares the value of n with zero 
  *
- *main - compares the value of n with zero 
- *
+ * Return: returns zero
  */
 int main(void)
 {

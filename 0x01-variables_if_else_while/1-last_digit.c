@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
+ * main - compares the last digit with 5
  *
- *main - compares the last digit with 5
- *
+ * Return: returns zero
  */
 int main(void)
 {

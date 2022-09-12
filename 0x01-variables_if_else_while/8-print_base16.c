@@ -2,7 +2,9 @@
 
 /**
  *
- *main - rints all the numbers of base 16 in lowercase
+ * main - rints all the numbers of base 16 in lowercase
+ *
+ * Return: returns zero
  */
 int main(void)
 {
