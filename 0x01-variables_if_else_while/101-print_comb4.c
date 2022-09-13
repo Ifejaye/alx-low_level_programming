@@ -4,7 +4,6 @@
  *
  * Return: returns the value zero
  */
- 
 int main(void)
 {
 	int i;

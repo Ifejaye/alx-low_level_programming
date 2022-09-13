@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - rints all the numbers of base 16 in lowercase
  *
  * Return: returns zero
