@@ -2,12 +2,12 @@
 
 /**
   * _abs - computes the absolute value of an integer
+  * @r: number to work with
   *
   * Return: returns integer
   */
-int _abs(int)
+int _abs(int r)
 {
-	int r;
 	if (r < 0)
 	{
 		_putchar(-r + '0');
