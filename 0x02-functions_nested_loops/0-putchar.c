@@ -6,7 +6,8 @@
   * Return: returns zero.
   */
 
-int main(void){
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -15,6 +16,7 @@ int main(void){
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_pulchar('\n');
 
 
 	return (0);

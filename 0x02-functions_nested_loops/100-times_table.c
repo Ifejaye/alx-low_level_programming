@@ -20,7 +20,7 @@ void print_times_table(int n)
 				prod = i * j;
 				if (prod > 100)
 					_putchar((prod / 100) + '0');
-				 else
+				else
 					_putchar(' ');
 				if (prod >= 10)
 				{
@@ -30,7 +30,7 @@ void print_times_table(int n)
 					_putchar(' ');
 				}
 				_putchar((prod % 10) + '0');
-				if (j < 9)
+				if (j < n)
 				{
 					_putchar(',');
 					_putchar(' ');
