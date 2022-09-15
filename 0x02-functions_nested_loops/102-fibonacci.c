@@ -9,11 +9,9 @@
 int main(void)
 {
 	int i;
-	long unsigned sum;
-	int a = 1;
-	int b = 2;
+	long unsigned sum, a = 1, b = 2;
 
-	printf("%d, %d, ", a ,b);	
+	printf("%lu, %lu, ", a ,b);	
 	for (i = 0; i < 48; i++)
 	{
 		sum = a + b;
