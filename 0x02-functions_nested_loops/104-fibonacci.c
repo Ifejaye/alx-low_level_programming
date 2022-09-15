@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	long unsigned sum, a = 1, b = 2;
+	unsigned long sum, a = 1, b = 2;
 
 	printf("%lu, %lu, ", a ,b);	
 	for (i = 0; i < 96; i++)
