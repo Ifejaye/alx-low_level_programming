@@ -23,7 +23,7 @@ void print_times_table(int n)
 				else
 				{
 					if (j != 0)
-					_putchar(' ');
+						_putchar(' ');
 				}
 				if (prod >= 10)
 				{
