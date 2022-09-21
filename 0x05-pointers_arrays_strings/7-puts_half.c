@@ -6,16 +6,21 @@
   *
   * Return: returns void
   */
-void puts2(char *str)
+lf(char *str)
 {
 	int i;
-	int n;
+	int n, len;
 	n = 0;
 
-	while (*s++)
-		n++;
 	
-	for (i = 0; i < n; i +=2)
+	while (*s++)
+		len++;
+	if (len % 2 = 0)
+		n = len / 2;
+	else
+		n = (len - 1) / 2;
+	
+	for (i = 0; i < n; i ++)
 		_putchar(*(str++));
 	_putchar('\n');
 }
