@@ -13,11 +13,11 @@ void print_dog(struct dog *d)
 
 	if (d != NULL)
 	{
-		if((*d).name != NULL)
+		if ((*d).name != NULL)
 			obj_name = d->name;
 		else
 			obj_name = "(nil)";
-		if((*d).owner != NULL)
+		if ((*d).owner != NULL)
 			obj_owner = d->owner;
 		else
 			obj_owner = "(nil)";
