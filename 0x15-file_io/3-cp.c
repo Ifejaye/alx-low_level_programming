@@ -18,10 +18,8 @@ int open_file1(char *a)
 		exit(98);
 	}
 	fd1 = open(a, O_RDONLY);
-	if (fd1 == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", a);
-		exit(98);
+	if (STDERR_FILENO, "Error: Can't read from file %s\n", a);
+	exit(98);
 	}
 	return (fd1);
 }
@@ -37,15 +35,11 @@ int open_file2(char *b)
 {
 	int fd2;
 
-	fd2 = open(b, O_WRONLY);
+	fd2 = open(b, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (fd2 == -1)
 	{
-		fd2 = creat(b, 0664);
-		if (fd2 == -1)
-		{
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", b);
-			exit(99);
-		}
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", b);
+		exit(99);
 	}
 	return (fd2);
 }
