@@ -3,7 +3,7 @@
 
 /**
  * print_dlistint - prints all element of dll
- * @dlistint: linked list
+ * @h: linked list
  *
  * Return: return number of nodes
  */

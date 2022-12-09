@@ -2,8 +2,8 @@
 #include "lists.h"
 
 /**
- * size_t dlistint_len - prints all element of dll
- * @dlistint: linked list
+ * dlistint_len - return lenght of dll
+ * @h: dll
  *
  * Return: return number of nodes
  */
