@@ -12,10 +12,10 @@ void puts2(char *str)
 	int n;
 	n = 0;
 
-	while (*s++)
+	while (*(str + n))
 		n++;
 	
 	for (i = 0; i < n; i +=2)
-		_putchar(*(str++));
+		_putchar(*(str + i));
 	_putchar('\n');
 }

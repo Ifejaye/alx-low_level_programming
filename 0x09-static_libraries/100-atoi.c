@@ -2,6 +2,8 @@
 
 int _atoi(char *s)
 {
-	return(0);
+	if (*s == 'p')
+		return (0);
+	return (0);
 }
 

@@ -6,21 +6,21 @@
   *
   * Return: returns void
   */
-lf(char *str)
+void puts_half(char *str)
 {
 	int i;
 	int n, len;
 	n = 0;
 
 	
-	while (*s++)
-		len++;
-	if (len % 2 = 0)
-		n = len / 2;
+	while (*(str + n))
+		n++;
+	if (n % 2 == 0)
+		len = n / 2;
 	else
-		n = (len - 1) / 2;
+		len = (n - 1) / 2;
 	
-	for (i = 0; i < n; i ++)
-		_putchar(*(str++));
+	for (i = len; i <= n; i++)
+		_putchar(*(str + i));
 	_putchar('\n');
 }
